@@ -129,7 +129,44 @@ UI elements use green tones and organic shapes to reflect the game’s environme
 Fonts are bold and readable, optimized for players aged 8–15.
 
 ## Unity Scripting
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/72d7be63-dbd9-44a4-a270-3692f805cf3e" />
+Player Movement:
 
+The PlayerMovement script is a core component of Eco Runner, responsible for handling dynamic character control in a 2D platformer environment. Written in C# for Unity, it integrates physics-based movement, animation control, and dash mechanics to create a responsive and engaging player experience.
+
+🔧 Key Functionalities
+Horizontal Movement & Jumping:
+
+* Controlled via horizontal, speed, and jumpingPower variables.
+
+* Uses Rigidbody2D to apply force-based movement, ensuring smooth physics interactions.
+
+* Ground detection is handled via groundCheck and groundLayer, allowing for accurate jump conditions.
+
+Dash Mechanic:
+
+* Includes variables for dashingPower, dashingTime, and dashingCooldown.
+
+* Boolean flags (canDash, isDashing) manage dash availability and state.
+
+* TrailRenderer adds visual feedback during dashing, enhancing player immersion.
+
+Facing Direction:
+
+* isFacingRight tracks player orientation, enabling sprite flipping for left/right movement.
+
+* This ensures animations and movement remain visually consistent.
+
+Animation Integration:
+
+* The Animator component is initialized and used to trigger movement and dash animations based on player input and state.
+
+ Coin Manager Reference:
+
+* The public CoinManager cm
+
+  ## Video Walkthrough:
+   [Gif of bla blah](Assets\CTread.mefile.gif")
 
   
 ```
