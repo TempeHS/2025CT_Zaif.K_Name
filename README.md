@@ -105,6 +105,9 @@ Whilst this was effective in my game currently I have faced alot of issues that 
 ## UI/ Level Design
 🧭 User Interface (UI)
 Eco Runner features a clean, intuitive UI designed to support fast-paced platforming while reinforcing the game’s eco-conscious theme.
+<img width="989" height="99" alt="image" src="https://github.com/user-attachments/assets/9ae0b431-e5cf-4bba-b226-56eea9c0b7db" />
+<img width="911" height="61" alt="image" src="https://github.com/user-attachments/assets/d3f31e5c-f75c-4287-ba39-c6ef7fcd3600" />
+
 
 HUD Elements:
 
@@ -130,7 +133,7 @@ Fonts are bold and readable, optimized for players aged 8–15.
 
 ## Unity Scripting
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/72d7be63-dbd9-44a4-a270-3692f805cf3e" />
-Player Movement:
+
 
 The PlayerMovement script is a core component of Eco Runner, responsible for handling dynamic character control in a 2D platformer environment. Written in C# for Unity, it integrates physics-based movement, animation control, and dash mechanics to create a responsive and engaging player experience.
 
@@ -166,9 +169,12 @@ Animation Integration:
 * The public CoinManager cm
 
   ## Video Walkthrough:
-   [Gif of bla blah](Assets\CTread.mefile.gif")
+   [Gif of Coin Animation](Assets/CTread.mefile)
 
-  
+  ##  Level 2:
+Level 2 of Eco Runner remains partially developed due to time constraints and asset limitations. While a basic boss entity was successfully implemented using foundational physics mechanics (e.g., collision detection, movement patterns), the broader level environment could not be fully realized. Initial sprite contributions from my multimedia partner—particularly for dirt tiles and floating islands—lacked the visual depth and polish required to maintain consistency with the game’s aesthetic. These assets appeared flat and under-detailed, which impacted immersion and gameplay clarity. To address this, I sourced higher-quality tilemaps and environmental textures from the Unity Asset Store, ensuring a more cohesive and professional look. This decision reflects my commitment to visual fidelity and player experience, even when working within collaborative or time-bound constraints
+  <img width="993" height="555" alt="image" src="https://github.com/user-attachments/assets/ce1bfe8d-d565-4615-87a8-c9a594595df8" />
+
 ```
 code blocks for commands
 ```
@@ -181,6 +187,7 @@ Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
+## Developer Notes (Optional)
 
 ## Authors
 
