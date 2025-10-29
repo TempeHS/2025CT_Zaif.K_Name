@@ -124,6 +124,9 @@ HUD Elements:
   <img width="206" height="49" alt="image" src="https://github.com/user-attachments/assets/57660840-cfdd-41d9-a30d-3a2ae98599ee" />
 <img width="784" height="22" alt="image" src="https://github.com/user-attachments/assets/70b6afd0-3d6d-4ffa-8ede-f2dc9eaac293" />
 
+Kill Screen: UI Time Button Flashes Red when you lose on time:
+<img width="990" height="554" alt="image" src="https://github.com/user-attachments/assets/9fda014d-b9b5-4b42-9935-a0bb13d99be8" />
+
 
 Pause/Resume Menu:
 
@@ -191,7 +194,7 @@ As a result, the level ends without the boss fight I’d envisioned. It’s a bi
 <img width="341" height="127" alt="image" src="https://github.com/user-attachments/assets/f2715c5c-bc26-468c-a6c3-6ec066a2f036" />
 <img width="116" height="114" alt="image" src="https://github.com/user-attachments/assets/17791982-2890-4746-be8e-66ccd0051cc2" />
 
-## Interactions:
+## Interactions/ Animations:
 ⚙️ Settings
 Sound: Currently unavaialable, but will be added later on.
 
