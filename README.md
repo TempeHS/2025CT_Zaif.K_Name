@@ -3,7 +3,7 @@
 # Table of Contents
 1. [Controls](https://github.com/Zaif.K_Name/EcoRunner##Controls)
 
-Simple overview of use/purpose:
+## Simple overview of use/purpose:
  <b>Eco Runner is an educational adventure game designed to raise awareness about climate change and sustainability. Players take on the role of an environmental hero tasked with cleaning up pollution, restoring ecosystems, and promoting responsible behavior through interactive storytelling. </b>
 
 <i> Every action counts. Eco Runner teaches players that small steps—like recycling or cleaning up waste—can lead to big environmental change. </i>
@@ -55,11 +55,11 @@ Progression to Level 2 requires precise movement and hazard avoidance. Spikes ar
 A coded death boundary ensures that falling off-screen or into designated danger zones results in instant failure. This mechanic maintains challenge integrity and prevents unintended exploration beyond the designed map. It’s a classic platformer feature, but here it’s framed as falling into ecological ruin—adding thematic weight to player failure.
 
 🎥 Virtual Camera Follow
-The game uses a virtual camera system that smoothly tracks the player’s movement across the tilemap. This dynamic follow ensures:
+* The game uses a virtual camera system that smoothly tracks the player’s movement across the tilemap. This dynamic follow ensures:
 
-Consistent framing of the character
+* Consistent framing of the character
 
-Visibility of upcoming terrain and hazards
+* Visibility of upcoming terrain and hazards
 
 A cinematic feel that enhances immersion The camera may also zoom or pan slightly during key moments (e.g., coin pickups, near-death escapes), adding polish and emotional impact.
 ## Spawn Entry:
@@ -97,6 +97,8 @@ Whilst this was effective in my game currently I have faced alot of issues that 
 <img width="1647" height="345" alt="image" src="https://github.com/user-attachments/assets/aea0a8d2-0039-436b-b6d3-b1ad73c1f02a" />
 
 
+
+
 ### Executing program
 
 * How to run the program
@@ -111,25 +113,31 @@ Eco Runner features a clean, intuitive UI designed to support fast-paced platfor
 
 HUD Elements:
 
-*Coin Counter (Top Left): Tracks collectible progress in real time.
+* Coin Counter (Top Left): Tracks collectible progress in real time.
 
-Level Indicator (Top Right): Displays current stage for player orientation.
+* Level Indicator (Top Right): Displays current stage for player orientation.
 
-Time Tracker (Bottom Left): Shows countdown from 90 seconds, adding urgency to each run.
+* Time Tracker (Bottom Left): Shows countdown from 90 seconds, adding urgency to each run.
+
+  Visuals:
+  
+  <img width="206" height="49" alt="image" src="https://github.com/user-attachments/assets/57660840-cfdd-41d9-a30d-3a2ae98599ee" />
+<img width="784" height="22" alt="image" src="https://github.com/user-attachments/assets/70b6afd0-3d6d-4ffa-8ede-f2dc9eaac293" />
+
 
 Pause/Resume Menu:
 
-Accessible via keyboard or controller input.
+* Accessible via keyboard or controller input.
 
-Options include Resume, Restart Level, Settings, and Exit to Main Menu.
+* Options include Resume, Restart Level, Settings, and Exit to Main Menu.
 
-Designed with minimal distraction and fast navigation for younger players.
+* Designed with minimal distraction and fast navigation for younger players.
 
 Visual Styling:
 
-UI elements use green tones and organic shapes to reflect the game’s environmental theme.
+* UI elements use green tones and organic shapes to reflect the game’s environmental theme.
 
-Fonts are bold and readable, optimized for players aged 8–15.
+* Fonts are bold and readable, optimized for players aged 8–15.
 
 ## Unity Scripting
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/72d7be63-dbd9-44a4-a270-3692f805cf3e" />
@@ -174,12 +182,35 @@ Animation Integration:
   ##  Level 2:
 Level 2 of Eco Runner remains partially developed due to time constraints and asset limitations. While a basic boss entity was successfully implemented using foundational physics mechanics (e.g., collision detection, movement patterns), the broader level environment could not be fully realized. Initial sprite contributions from my multimedia partner—particularly for dirt tiles and floating islands—lacked the visual depth and polish required to maintain consistency with the game’s aesthetic. These assets appeared flat and under-detailed, which impacted immersion and gameplay clarity. To address this, I sourced higher-quality tilemaps and environmental textures from the Unity Asset Store, ensuring a more cohesive and professional look. This decision reflects my commitment to visual fidelity and player experience, even when working within collaborative or time-bound constraints
   <img width="993" height="555" alt="image" src="https://github.com/user-attachments/assets/ce1bfe8d-d565-4615-87a8-c9a594595df8" />
+Boss:
+Level 2 was meant to be a turning point in the game — a shift in tone, difficulty, and narrative tension. The environment was more dynamic, with layered backgrounds and tighter platforming challenges. I had planned for the level to culminate in a final boss encounter that would test everything the player had learned so far.
+
+Unfortunately, I couldn’t implement the final boss sprite in time. The concept was there — I had the design sketched out and the mechanics partially mapped — but the sprite itself never made it into the build. There were a few reasons: some technical hiccups with the animation controller, a mismatch between the sprite dimensions and the hitbox setup, and honestly, a crunch on time that forced me to prioritize core gameplay over polish.
+
+As a result, the level ends without the boss fight I’d envisioned. It’s a bit abrupt, and I know it leaves a gap in the pacing. But I still see Level 2 as a strong foundation — the buildup is there, and the placeholder ending gives me room to expand in future updates. The boss sprite is still on my list, and once it’s properly rigged and animated, I’ll be able to deliver the climax this level deserves.
+<img width="341" height="127" alt="image" src="https://github.com/user-attachments/assets/f2715c5c-bc26-468c-a6c3-6ec066a2f036" />
+<img width="116" height="114" alt="image" src="https://github.com/user-attachments/assets/17791982-2890-4746-be8e-66ccd0051cc2" />
+
+## Interactions:
+⚙️ Settings
+Sound: Currently unavaialable, but will be added later on.
+
+Level: After passing the first level, you will transition into the unfinished second level.
+
+Pause/Resume Menu: Press Esc to transition into Pause State, then click the Resume button to continue from once you were. You will be able to use the Quit game button after the game has been published like a file or released on a platform like Steam. 
+
+Fullscreen: Press F to toggle
+
+# Visuals
+<img width="400" height="266" alt="image" src="https://github.com/user-attachments/assets/fad7218b-b859-404f-86f0-e6eabcf144ad" />
+<img width="400" height="556" alt="image" src="https://github.com/user-attachments/assets/035035b1-307d-4ab6-a1f8-189c45c68afe" />
+
 
 ```
 code blocks for commands
 ```
 ## Outstanding Elements
-Multimedia Partner did deliver with the a few sprites e.g Protagonist
+Multimedia Partner did deliver with the a few sprites e.g Protagonist. However some of them lacked detail anddid not satisfy what I wanted to build and achieve. That's why I went to Unity Asset store and utilised their free online assets, resources and tile maps.
 
 ## Help
 
@@ -188,13 +219,25 @@ Any advise for common problems or issues.
 command to run if program contains helper info
 ```
 ## Developer Notes (Optional)
+Eco Runner is a solo-developed 2D platformer built to showcase my skills in game design, animation direction, and technical documentation. It was created using Unity and integrates custom UI, layered parallax backgrounds, and interactive level design.
+🔧 Skills Demonstrated
+Game Mechanics: Implemented movement physics, collision detection, and environmental hazards
+
+Animation Direction: Designed and animated title screen, player sprite, and UI transitions
+
+Asset Integration: Ethically sourced and credited third-party assets; directed original art creation
+
+Documentation: Produced README.md and developer notes with markdown formatting and embedded media
+
+Creative Direction: Led visual storytelling and level pacing, including boss design (pending implementation)
 
 ## Authors
-
+🎨 Art Credits
+Special thanks to <b>Grace Tun</b> for contributing original character and environment sprites. All other assets are in the ICT Google Drive
 Contributors names and contact info
 
-ex. Zaif Khan
-ex. [@benpaddlejones](https://github.com/benpaddlejones)
+Name: Zaif Khan
+Work Email: zaif.khan@education.nsw.gov.au
 
 ## Version History
 
@@ -206,7 +249,7 @@ ex. [@benpaddlejones](https://github.com/benpaddlejones)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [Zaif Khan] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
