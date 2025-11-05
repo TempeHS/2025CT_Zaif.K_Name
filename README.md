@@ -1,7 +1,7 @@
 # Project Title:  <ins> <i> Eco Runner </i> <ins> </ins>
 
 # Table of Contents
-1. [Controls](https://github.com/Zaif.K_Name/EcoRunner##Controls)
+1. [Controls](https://github.com/2025CT_Zaif.K_Name/EcoRunner##Controls)
 
 ## Simple overview of use/purpose:
  <b>Eco Runner is an educational adventure game designed to raise awareness about climate change and sustainability. Players take on the role of an environmental hero tasked with cleaning up pollution, restoring ecosystems, and promoting responsible behavior through interactive storytelling. </b>
@@ -64,7 +64,8 @@ A coded death boundary ensures that falling off-screen or into designated danger
 A cinematic feel that enhances immersion The camera may also zoom or pan slightly during key moments (e.g., coin pickups, near-death escapes), adding polish and emotional impact.
 ## Spawn Entry:
  <img width="990" height="554" alt="image" src="https://github.com/user-attachments/assets/bbd19204-4064-48d0-b3da-5c56f84eeadc" />
-<p>In designing the spawn environment for Eco Runner, I aimed to create a visually immersive and thematically rich entry point that immediately communicates the game’s ecological focus. The tilemap features layered grassy platforms with soft, organic edges, suggesting natural terrain rather than rigid, artificial structures. I used pixel textures that blend earthy tones—deep greens, muted browns, and mossy overlays—to evoke a sense of overgrowth and renewal. The background, with its silhouetted pine trees and twilight sky, adds depth and atmosphere, reinforcing the idea that the player is entering a forest in recovery. Every texture was chosen to feel hand-crafted and alive, from the flower crown on the character to the subtle shimmer of the coin, creating a world where nature is central and every detail supports the theme of restoration. My goal was to make the player feel grounded in a living ecosystem from the very first moment, where exploration and environmental impact are tightly intertwined.</p>
+
+<b><p>In designing the spawn environment for Eco Runner, I aimed to create a visually immersive and thematically rich entry point that immediately communicates the game’s ecological focus. The tilemap features layered grassy platforms with soft, organic edges, suggesting natural terrain rather than rigid, artificial structures. I used pixel textures that blend earthy tones—deep greens, muted browns, and mossy overlays—to evoke a sense of overgrowth and renewal. The background, with its silhouetted pine trees and twilight sky, adds depth and atmosphere, reinforcing the idea that the player is entering a forest in recovery. Every texture was chosen to feel hand-crafted and alive, from the flower crown on the character to the subtle shimmer of the coin, creating a world where nature is central and every detail supports the theme of restoration. My goal was to make the player feel grounded in a living ecosystem from the very first moment, where exploration and environmental impact are tightly intertwined.</p></b>
 
 
 ## Character Design & Storyline:
@@ -85,6 +86,10 @@ Meet Kai, a fearless climate defender armed with cutting-edge eco-tech and unsto
 ##Organisation of Files/Scripts/Assets: 
 <img width="1240" height="213" alt="image" src="https://github.com/user-attachments/assets/2cd97d8f-c974-4478-932f-518e25aaa9f6" />
 I’ve effectively incorporated free or credited assets (e.g. pixel art tiles, character sprites, UI icons) to build a cohesive visual style. These assets are integrated seamlessly into your game world, and their use is clearly acknowledged in your documentation. With the experimentation of various sprites and assets, I have continued to develop my game with a range of interactive features. Most of the files are organised and have been up to date whilst being commited to GitHub in regular intervals. 
+
+## Animator Layout:
+<img width="504" height="141" alt="image" src="https://github.com/user-attachments/assets/f3374919-d22f-4bf3-a438-1d9677a2da29" />
+<p> Initially, I planned to implement jump animations to enhance the character's movement, but noticed the animation system defaulted to idle regardless of input. To address this, I first added a walk animation that triggers correctly when movement is detected. Since the dash mechanic was already implemented, integrating the walk cycle helped bridge the gap between idle and dash states, laying the groundwork for future animation transitions like jumping and landing. This will be discussed in my file for the scripts and how I edited it to include the boolean </p>
 
 ## Developer Docuementation
 
@@ -180,6 +185,7 @@ Animation Integration:
 * The public CoinManager cm
 
   ## Video Walkthrough:
+  Here it is: Saved in the Repository
    [Gif of Coin Animation](Assets/CTread.mefile)
 
   ##  Level 2:
@@ -236,7 +242,16 @@ Creative Direction: Led visual storytelling and level pacing, including boss des
 
 ## Authors
 🎨 Art Credits
-Special thanks to <b>Grace Tun</b> for contributing original character and environment sprites. All other assets are in the ICT Google Drive
+Special thanks to <b>Grace Tun</b> for contributing original character and environment sprites. All other assets are in the ICT Google Drive.
+2. [Google Drive]((https://drive.google.com/drive/folders/1QtWtYFmIMr_mU8awDUPdXL4bAkqxSrwl)).
+### Visuals & Tilemaps
+<img width="133" height="131" alt="image" src="https://github.com/user-attachments/assets/facbc2f4-bea4-4ed2-86fe-ba3a34673f9a" /> <img width="132" height="130" alt="image" src="https://github.com/user-attachments/assets/913a5775-4afa-4ba7-b1fa-2f6ffb7eddf4" />
+<img width="132" height="124" alt="image" src="https://github.com/user-attachments/assets/6021a0a0-f5d6-4c72-82e1-d42281984b03" /> <img width="152" height="49" alt="image" src="https://github.com/user-attachments/assets/47ffefc0-be65-437a-a526-f63da8bb2d50" />
+
+Here is one variation of the tilemap that I used for Level 1:
+<img width="174" height="68" alt="image" src="https://github.com/user-attachments/assets/cd594610-6f54-48a4-bb27-c39227bbcb8c" />
+
+
 Contributors names and contact info
 
 Name: Zaif Khan
