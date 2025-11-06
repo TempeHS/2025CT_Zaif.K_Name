@@ -1,5 +1,8 @@
-# Project Title:  <ins> <i> Eco Runner </i> <ins> </ins>
 
+# Project Title:  <ins> <i> Eco Runner </i> <ins> </ins>
+# Video Walkthrough:
+
+https://github.com/user-attachments/assets/c0a72539-b741-4f39-965d-2fd5940b4762
 # Table of Contents
 1. [Controls](https://github.com/2025CT_Zaif.K_Name/EcoRunner##Controls)
 
@@ -90,6 +93,26 @@ I’ve effectively incorporated free or credited assets (e.g. pixel art tiles, c
 ## Animator Layout:
 <img width="504" height="141" alt="image" src="https://github.com/user-attachments/assets/f3374919-d22f-4bf3-a438-1d9677a2da29" />
 <p> Initially, I planned to implement jump animations to enhance the character's movement, but noticed the animation system defaulted to idle regardless of input. To address this, I first added a walk animation that triggers correctly when movement is detected. Since the dash mechanic was already implemented, integrating the walk cycle helped bridge the gap between idle and dash states, laying the groundwork for future animation transitions like jumping and landing. This will be discussed in my file for the scripts and how I edited it to include the boolean </p>
+
+## Tutorials Used:
+| Tutorials  | AI|
+| ------------- | ------------- |
+| MoreBlakkey | Microsoft Copilot |
+| 2D Platformer Videos  | Game Code Library |
+
+| Links         | 
+| ------------- | 
+| Brakkey's: [Link]( https://www.youtube.com/watch?v=UbPiCgCkHTE) | 
+| Pandemonium 2D Platformer Playlist: [Link](https://www.youtube.com/watch?v=TcranVQUQ5U&list=PLgOEwFbvGm5o8hayFB6skAfa8Z-mw4dPV ).  |
+
+I used tutorials—especially ones by Brackeys and others on YouTube—to get the core mechanics of my 2D platformer working, like movement, jumping, and collision detection; Brackeys' breakdowns of Unity physics and scripting were super helpful for understanding 
+
+* Rigidbody2D and how to handle input smoothly, and I also leaned on other creators for things like enemy AI, camera follow scripts, and level transitions, piecing together different techniques until everything clicked and I had a playable prototype.
+* Movement & Physics: I followed tutorials on player movement, learning how to implement smooth jumping, gravity, and collision detection. Seeing how others handled things like acceleration and friction helped me fine-tune the feel of the game.
+* Level Design: Tutorials on tilemaps and parallax scrolling gave me the tools to build visually interesting levels. I learned how to use layers and triggers to create dynamic environments.
+* Animation & Feedback: I used guides to set up sprite animations and add visual feedback—like flashing when the player takes damage or squashing/stretching during jumps.* 
+* Game Logic: Tutorials helped me structure my code better, especially when it came to managing states (like idle, running, jumping) and organizing scripts for enemies, collectibles, and checkpoints.
+* Polish & UI: I even used tutorials to build menus, HUDs, and transitions. It made the game feel complete and user-friendly.
 
 ## Developer Docuementation
 
@@ -184,9 +207,18 @@ Animation Integration:
 
 * The public CoinManager cm
 
-  ## Video Walkthrough:
+  ## Animation:
   Here it is: Saved in the Repository
    [Gif of Coin Animation](Assets/CTread.mefile)
+  <img width="259" height="194" alt="image" src="https://github.com/user-attachments/assets/eb2407b5-fe26-436a-aea3-58679f7df4b7" />
+
+
+
+| Command | Attached Animations |
+| --- | --- |
+| `Jumping` | List all *new or modified* files |
+| `Idle` | Show file differences that **haven't been** staged |
+| `Idle` | Show file differences that **haven't been** staged |
 
   ##  Level 2:
 Level 2 of Eco Runner remains partially developed due to time constraints and asset limitations. While a basic boss entity was successfully implemented using foundational physics mechanics (e.g., collision detection, movement patterns), the broader level environment could not be fully realized. Initial sprite contributions from my multimedia partner—particularly for dirt tiles and floating islands—lacked the visual depth and polish required to maintain consistency with the game’s aesthetic. These assets appeared flat and under-detailed, which impacted immersion and gameplay clarity. To address this, I sourced higher-quality tilemaps and environmental textures from the Unity Asset Store, ensuring a more cohesive and professional look. This decision reflects my commitment to visual fidelity and player experience, even when working within collaborative or time-bound constraints
