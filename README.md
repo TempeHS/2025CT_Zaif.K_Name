@@ -1,8 +1,19 @@
 
 # Project Title:  <ins> <i> Eco Runner </i> <ins> </ins>
 # Video Walkthrough:
+## Contents:
+*  Simple Overview/Purpose
+*  Controls
+* Menu
+* Features
 
+  
 https://github.com/user-attachments/assets/c0a72539-b741-4f39-965d-2fd5940b4762
+
+
+
+> [!NOTE]
+> Transition into Level 2 wasn't added due to difficulty of the game.
 # Table of Contents
 1. [Controls](https://github.com/2025CT_Zaif.K_Name/EcoRunner##Controls)
 
@@ -45,6 +56,14 @@ Eco Runner helps players understand that:
 🪙 Coin Collection System
 The coin mechanic serves as both a reward and a progression driver. Coins are strategically placed to encourage exploration and risk-taking, often positioned near hazards or on elevated platforms. Each coin collected contributes to the player's score and may unlock future upgrades or achievements. The floating animation and subtle glow effect make them visually enticing, while their placement subtly guides the player through optimal paths.
 
+<img width="111" height="22" alt="image" src="https://github.com/user-attachments/assets/82416741-5b97-4e99-b62c-df080a521ef3" />
+<img width="32" height="32" alt="Collectable Coin-1 png" src="https://github.com/user-attachments/assets/fac908f8-c615-4760-957c-393f3b36283d" />
+<img width="32" height="32" alt="Collectable Coin-2 png" src="https://github.com/user-attachments/assets/323c2772-5273-4b21-909f-d487a49dea57" />
+<img width="32" height="32" alt="Collectable Coin-3 png" src="https://github.com/user-attachments/assets/6d6578c6-c3d4-4047-b880-558ac3c896cc" />
+<img width="32" height="32" alt="Collectable Coin-4 png" src="https://github.com/user-attachments/assets/d15f50b6-b242-4021-9dba-6e09ae4ee24a" />
+<img width="32" height="32" alt="Collectable Coin-5 png" src="https://github.com/user-attachments/assets/bd2416e9-5b61-4f34-bfe3-b6c0a7a83765" />
+<img width="32" height="32" alt="Collectable Coin-6 png" src="https://github.com/user-attachments/assets/d7095afc-7088-432d-bbe0-ac04736130b2" />
+
 ⏱️ Time Limit & Self-Destruct Mechanism
 Each level is coded with a 90-second time window, adding urgency and pacing to the gameplay. If the player fails to reach the goal within this limit, a self-destruction sequence is triggered—whether through environmental collapse, character fade-out, or a thematic "nature rejection" effect. This mechanic reinforces the idea that action must be timely to preserve the ecosystem, aligning with the game’s environmental message.
 
@@ -53,6 +72,8 @@ The pause menu is clean and functional, allowing players to pause gameplay in re
 
 🧱 Spike Dodging & Level Progression
 Progression to Level 2 requires precise movement and hazard avoidance. Spikes are placed as environmental threats that demand timing and spatial awareness. Their placement isn’t random—they’re designed to test the player’s mastery of jump arcs and platform spacing. Successfully dodging them not only unlocks the next level but reinforces the theme of navigating a damaged world with care and precision.
+<img width="730" height="98" alt="image" src="https://github.com/user-attachments/assets/77b96dfa-9ded-466c-8d68-e5d734936055" />
+
 
 ⚠️ Death Boundary
 A coded death boundary ensures that falling off-screen or into designated danger zones results in instant failure. This mechanic maintains challenge integrity and prevents unintended exploration beyond the designed map. It’s a classic platformer feature, but here it’s framed as falling into ecological ruin—adding thematic weight to player failure.
@@ -63,6 +84,14 @@ A coded death boundary ensures that falling off-screen or into designated danger
 * Consistent framing of the character
 
 * Visibility of upcoming terrain and hazards
+
+
+ 
+ <img width="1096" height="554" alt="image" src="https://github.com/user-attachments/assets/c9683aa2-0fb3-4fe6-838d-5a8e255acf90" />
+
+ <img width="447" height="402" alt="image" src="https://github.com/user-attachments/assets/0b6b5600-aeee-4856-a672-0900ae5aebd0" />
+
+<img width="447" height="402" alt="image" src="https://github.com/user-attachments/assets/34dd9419-0af7-4b05-b35a-ed0944a1a777" />
 
 A cinematic feel that enhances immersion The camera may also zoom or pan slightly during key moments (e.g., coin pickups, near-death escapes), adding polish and emotional impact.
 ## Spawn Entry:
@@ -156,7 +185,7 @@ Kill Screen: UI Time Button Flashes Red when you lose on time:
 <img width="990" height="554" alt="image" src="https://github.com/user-attachments/assets/9fda014d-b9b5-4b42-9935-a0bb13d99be8" />
 
 
-Pause/Resume Menu:
+## Pause/Resume Menu:
 
 * Accessible via keyboard or controller input.
 
@@ -164,7 +193,10 @@ Pause/Resume Menu:
 
 * Designed with minimal distraction and fast navigation for younger players.
 
-Visual Styling:
+  ## Video
+  https://github.com/user-attachments/assets/5d0cbc8c-350d-4228-aa81-f60e1a77b0ec
+
+## Visual Styling:
 
 * UI elements use green tones and organic shapes to reflect the game’s environmental theme.
 
@@ -172,6 +204,9 @@ Visual Styling:
 
 ## Unity Scripting
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/72d7be63-dbd9-44a4-a270-3692f805cf3e" />
+Coin Manager:
+<img width="449" height="262" alt="image" src="https://github.com/user-attachments/assets/148e6e7e-fede-4646-aed6-d892be571323" />
+
 
 
 The PlayerMovement script is a core component of Eco Runner, responsible for handling dynamic character control in a 2D platformer environment. Written in C# for Unity, it integrates physics-based movement, animation control, and dash mechanics to create a responsive and engaging player experience.
@@ -210,15 +245,16 @@ Animation Integration:
   ## Animation:
   Here it is: Saved in the Repository
    [Gif of Coin Animation](Assets/CTread.mefile)
-  <img width="259" height="194" alt="image" src="https://github.com/user-attachments/assets/eb2407b5-fe26-436a-aea3-58679f7df4b7" />
 
+  <img width="259" height="200" alt="image" src="https://github.com/user-attachments/assets/eb2407b5-fe26-436a-aea3-58679f7df4b7" />            <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/de37bb9a-9b74-479c-b861-bf3ce5dbb83a" />
 
 
 | Command | Attached Animations |
 | --- | --- |
-| `Jumping` | List all *new or modified* files |
-| `Idle` | Show file differences that **haven't been** staged |
-| `Idle` | Show file differences that **haven't been** staged |
+| `Jumping` | ![Recording 2025-11-07 145549](https://github.com/user-attachments/assets/35b4d1bb-4d81-428c-bddd-7d9a90e9cf97)|
+| `Idle`    | ![Recording 2025-11-07 145549](https://github.com/user-attachments/assets/bdf45f80-3723-440b-a8de-95e05cad0259)| 
+| `Running` | ![Recording 2025-11-07 145549](https://github.com/user-attachments/assets/9e30cc72-16df-41dd-9667-4c56d54b4487)|
+
 
   ##  Level 2:
 Level 2 of Eco Runner remains partially developed due to time constraints and asset limitations. While a basic boss entity was successfully implemented using foundational physics mechanics (e.g., collision detection, movement patterns), the broader level environment could not be fully realized. Initial sprite contributions from my multimedia partner—particularly for dirt tiles and floating islands—lacked the visual depth and polish required to maintain consistency with the game’s aesthetic. These assets appeared flat and under-detailed, which impacted immersion and gameplay clarity. To address this, I sourced higher-quality tilemaps and environmental textures from the Unity Asset Store, ensuring a more cohesive and professional look. This decision reflects my commitment to visual fidelity and player experience, even when working within collaborative or time-bound constraints
@@ -262,15 +298,13 @@ command to run if program contains helper info
 ## Developer Notes (Optional)
 Eco Runner is a solo-developed 2D platformer built to showcase my skills in game design, animation direction, and technical documentation. It was created using Unity and integrates custom UI, layered parallax backgrounds, and interactive level design.
 🔧 Skills Demonstrated
-Game Mechanics: Implemented movement physics, collision detection, and environmental hazards
-
-Animation Direction: Designed and animated title screen, player sprite, and UI transitions
-
-Asset Integration: Ethically sourced and credited third-party assets; directed original art creation
-
-Documentation: Produced README.md and developer notes with markdown formatting and embedded media
+*Game Mechanics: Implemented movement physics, collision detection, and environmental hazards
+* Animation Direction: Designed and animated title screen, player sprite, and UI transitions
+*Asset Integration: Ethically sourced and credited third-party assets; directed original art creation
+*Documentation: Produced README.md and developer notes with markdown formatting and embedded media
 
 Creative Direction: Led visual storytelling and level pacing, including boss design (pending implementation)
+Folio:
 
 ## Authors
 🎨 Art Credits
@@ -291,11 +325,7 @@ Work Email: zaif.khan@education.nsw.gov.au
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]() or see [branch]()
-* 0.1
-    * Initial Release
+
 
 ## License
 
