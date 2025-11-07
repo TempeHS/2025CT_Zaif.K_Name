@@ -5,7 +5,10 @@
 *  Simple Overview/Purpose
 *  Controls
 * Menu
-* Features
+* Features/Elements
+* Storyline
+* Use Docuementation
+* Developer Docuementation
 
   
 https://github.com/user-attachments/assets/c0a72539-b741-4f39-965d-2fd5940b4762
@@ -193,6 +196,21 @@ Kill Screen: UI Time Button Flashes Red when you lose on time:
 
 * Designed with minimal distraction and fast navigation for younger players.
 
+  ## 🎮 How to Play Eco Runner
+
+Welcome to **Eco Runner** — a fast-paced 2D platformer where you help our hero clean up the planet while dodging obstacles, to a better cleaner world!
+
+### ⚙️ Settings
+- **Sound**: Samples in Google Drive,but not implemented yt.
+- **Esc*: Pause Menu
+- **Language**: English only (for now!)
+
+### 🎯 Objective
+- Run through each level collecting **eco-points** by:
+  - Picking up collectibles
+  - Avoiding spikes/lava
+- Reach the **Eco Portal** at the end of each level to progress!
+
   ## Video
   https://github.com/user-attachments/assets/5d0cbc8c-350d-4228-aa81-f60e1a77b0ec
 
@@ -282,6 +300,8 @@ Fullscreen: Press F to toggle
 <img width="400" height="266" alt="image" src="https://github.com/user-attachments/assets/fad7218b-b859-404f-86f0-e6eabcf144ad" />
 <img width="400" height="556" alt="image" src="https://github.com/user-attachments/assets/035035b1-307d-4ab6-a1f8-189c45c68afe" />
 
+## Folio
+[Link](file:///C:/Users/nipun/Downloads/Games%20For%20Change%20Computer%20Technology%20Folio%201.pdf)
 
 ```
 code blocks for commands
@@ -295,20 +315,32 @@ Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
-## Developer Notes (Optional)
+## Developer Notes 
 Eco Runner is a solo-developed 2D platformer built to showcase my skills in game design, animation direction, and technical documentation. It was created using Unity and integrates custom UI, layered parallax backgrounds, and interactive level design.
+
 🔧 Skills Demonstrated
 *Game Mechanics: Implemented movement physics, collision detection, and environmental hazards
 * Animation Direction: Designed and animated title screen, player sprite, and UI transitions
 *Asset Integration: Ethically sourced and credited third-party assets; directed original art creation
 *Documentation: Produced README.md and developer notes with markdown formatting and embedded media
+Environmental theme: Promotes sustainability through gameplay.
 
+Original art direction: Player sprite, & backgrounds designed in collaboration with <b>Grace Tun </b>. 
+
+### 🔧 Technical Overview
+- **Engine**: Unity 2D
+- **Language**: C#
+- **Mechanics**:
+  - Object collision and physics
+  - Score tracking and level progression
+  - Advanced game mechanic features
+- **UI/UX**: Custom menus & interactions, pause system, and animations
 Creative Direction: Led visual storytelling and level pacing, including boss design (pending implementation)
-Folio:
 
 ## Authors
 🎨 Art Credits
 Special thanks to <b>Grace Tun</b> for contributing original character and environment sprites. All other assets are in the ICT Google Drive.
+Fonts: Unity Default Fonts (license)
 2. [Google Drive]((https://drive.google.com/drive/folders/1QtWtYFmIMr_mU8awDUPdXL4bAkqxSrwl)).
 ### Visuals & Tilemaps
 <img width="133" height="131" alt="image" src="https://github.com/user-attachments/assets/facbc2f4-bea4-4ed2-86fe-ba3a34673f9a" /> <img width="132" height="130" alt="image" src="https://github.com/user-attachments/assets/913a5775-4afa-4ba7-b1fa-2f6ffb7eddf4" />
@@ -320,12 +352,12 @@ Here is one variation of the tilemap that I used for Level 1:
 
 Contributors names and contact info
 
-Name: Zaif Khan
+Name: Zaif Khan & Grace Tun
 Work Email: zaif.khan@education.nsw.gov.au
 
-## Version History
+## Version History *(Optional)
 
-
+This is avaiable in VS Code, where regular commits were made for the production of the game. It can also be viewed on Github
 
 ## License
 
